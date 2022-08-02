@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+:root{
+    --eps-h1: 2em;
+    --eps-border-50: .5em;
+    --eps-margin-50: .5rem;
+}
+.border-50{
+    border-radius: var(--eps-border-50);
+}
+.padding-50{
+    padding: var(--eps-margin-50);
+}
+.container{
+    height: 100vh;
+    background: #123456;
+}
+.container-boton{
+    display: grid;
+    justify-items: flex-start;
+}
+.title-btn{
+    font-size: var(--eps-h1);
+}
+.btn{
+height: 50px;
+    padding: 15px;
+    width: 100px;
+}
