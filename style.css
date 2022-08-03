@@ -74,3 +74,18 @@ body{
 .btn-primary:hover{
     background-color: #1221D1;
 }
+
+.content-secondary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: .5rem;
+    border: .15rem solid #1221D1 ;
+    gap:0.5rem
+}
+.title-secondary{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
