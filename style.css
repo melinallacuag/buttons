@@ -22,43 +22,55 @@ body{
 }
 .container-boton{
     display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 90%;
     gap:.5rem;
-    padding: 10px;
 }
 .title-btn{
     font-size: var(--eps-h1);
 }
-.btn{
-    display: flex;
-    font-weight: 500;
-    border-radius: 0.5rem;
-    border: .15rem solid rgb(149, 56, 56);
-    text-transform: capitalize;
-    height: 40px;
-    align-items: center;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: .8rem;
 
-}
-.btn-primary {
-    color: #fff;
-    background-color: #0d6efd;
-    border: .12rem solid rgb(158, 29, 29);
-}
 .content{
     display: grid;
-    grid-template-columns: repeat(Auto-fit,minmax(350px,1fr));
-    grid-template-rows:  repeat(2,100px);
-    grid-auto-rows: 100px;
+    grid-template-columns: repeat(Auto-fit,minmax(300px,1fr));
+    grid-template-rows:  repeat(2,80px);
+    grid-auto-rows: 80px;
     gap: .5em;
 }
-.btn-content{
+.content-primary{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #e0f0ff;
+    background: #fff;
     border-radius: .5rem;
-    border: .15rem solid #0d6efd ;
+    border: .15rem solid #1221D1 ;
+    gap:0.5rem
+}
+.title-primary{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* La clase btn general para todo los botones sin estilos.*/
+.btn{
+    font-weight: 500;
+    border-radius: 0.35rem;
+    border: transparent;
+    color: #000;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+/*Boton Primario con estilo normal*/
+.btn-primary {
+    color: #fff;
+    background-color: #3342F5;
+    transition: 1s ease;   
+}
+.btn-primary:hover{
+    background-color: #1221D1;
 }
