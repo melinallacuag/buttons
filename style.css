@@ -165,3 +165,26 @@ body{
 .btn-danger:hover{
     background-color: #df1e1e;
 }
+
+.content-warning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: .5rem;
+    border: .15rem solid #fbc70b ;
+    gap:0.5rem
+}
+.title-warning{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #ffcc12;
+    transition: .8s ease;   
+}
+.btn-warning:hover{
+    background-color: #fbc70b;
+}
