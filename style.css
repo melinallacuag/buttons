@@ -188,3 +188,26 @@ body{
 .eps-warning:hover{
     background-color: #f5c20c;
 }
+
+.content-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: .5rem;
+    border: .15rem solid #228ff5 ;
+    gap:0.5rem
+}
+.title-info{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-info {
+    color: #fff;
+    background-color: #4c9ef1;
+    transition: .8s ease;   
+}
+.eps-info:hover{
+    background-color: #228ff5;
+}
