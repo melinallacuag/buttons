@@ -53,7 +53,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* La clase btn general para todo los botones sin estilos.*/
-.btn{
+.button{
     font-weight: 500;
     border-radius: 0.35rem;
     border: transparent;
@@ -66,12 +66,12 @@ body{
     text-transform: capitalize;
 }
 /*Boton Primario con estilo normal*/
-.btn-primary {
+.eps-primary {
     color: #fff;
     background-color: #3342F5;
     transition: .8s ease;   
 }
-.btn-primary:hover{
+.eps-primary:hover{
     background-color: #1221D1;
 }
 
@@ -89,12 +89,12 @@ body{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn-secondary {
+.eps-secondary {
     color: #fff;
     background-color: #5e5e6b;
     transition: .8s ease;   
 }
-.btn-secondary:hover{
+.eps-secondary:hover{
     background-color: #3c3e58;
 }
 
@@ -112,12 +112,12 @@ body{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn-success {
+.eps-success {
     color: #fff;
     background-color: #14db53;
     transition: .8s ease;   
 }
-.btn-success:hover{
+.eps-success:hover{
     background-color: #14c047;
 }
 
@@ -135,12 +135,12 @@ body{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn-success {
+.eps-success {
     color: #fff;
     background-color: #14db53;
     transition: .8s ease;   
 }
-.btn-success:hover{
+.eps-success:hover{
     background-color: #14c047;
 }
 .content-danger{
@@ -157,12 +157,12 @@ body{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn-danger {
+.eps-danger {
     color: #fff;
     background-color: #f62121;
     transition: .8s ease;   
 }
-.btn-danger:hover{
+.eps-danger:hover{
     background-color: #df1e1e;
 }
 
@@ -173,18 +173,18 @@ body{
     flex-direction: column;
     background: #fff;
     border-radius: .5rem;
-    border: .15rem solid #fbc70b ;
+    border: .15rem solid #f5c20c ;
     gap:0.5rem
 }
 .title-warning{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.btn-warning {
+.eps-warning {
     color: #fff;
     background-color: #ffcc12;
     transition: .8s ease;   
 }
-.btn-warning:hover{
-    background-color: #fbc70b;
+.eps-warning:hover{
+    background-color: #f5c20c;
 }
