@@ -211,3 +211,26 @@ body{
 .eps-info:hover{
     background-color: #228ff5;
 }
+
+.content-light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: .5rem;
+    border: .15rem solid #ededed ;
+    gap:0.5rem
+}
+.title-light{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-light {
+    color: #000;
+    background-color: #faf1f1;
+    transition: .8s ease;   
+}
+.eps-light:hover{
+    background-color: #ededed;
+}
