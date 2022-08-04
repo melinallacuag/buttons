@@ -82,10 +82,18 @@ body{
     flex-direction: column;
     background: #fff;
     border-radius: .5rem;
-    border: .15rem solid #1221D1 ;
+    border: .15rem solid #3c3e58 ;
     gap:0.5rem
 }
 .title-secondary{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #5e5e6b;
+    transition: 1s ease;   
+}
+.btn-secondary:hover{
+    background-color: #3c3e58;
 }
