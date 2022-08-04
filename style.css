@@ -69,7 +69,7 @@ body{
 .btn-primary {
     color: #fff;
     background-color: #3342F5;
-    transition: 1s ease;   
+    transition: .8s ease;   
 }
 .btn-primary:hover{
     background-color: #1221D1;
@@ -92,8 +92,31 @@ body{
 .btn-secondary {
     color: #fff;
     background-color: #5e5e6b;
-    transition: 1s ease;   
+    transition: .8s ease;   
 }
 .btn-secondary:hover{
     background-color: #3c3e58;
+}
+
+.content-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: .5rem;
+    border: .15rem solid #14c047 ;
+    gap:0.5rem
+}
+.title-success{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-success {
+    color: #fff;
+    background-color: #14db53;
+    transition: .8s ease;   
+}
+.btn-success:hover{
+    background-color: #14c047;
 }
