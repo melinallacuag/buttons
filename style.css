@@ -267,18 +267,20 @@ body{
     flex-direction: column;
     background: var(--eps-white);
     border-radius: .5rem;
-    border: .15rem solid var(--eps-dark) ;
+    border: .15rem solid var(--eps-primary) ;
     gap:0.5rem
 }
-.title-dark{
+.title-outline-primary{
     font-size: .8rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.eps-dark {
-    color: var(--eps-white);
-    background-color: var(--eps-black-light);
+.eps-outline-primary {
+    color: var(--eps-primary);
+    background-color: var(--eps-white);
+    border: .15rem solid var(--eps-primary);
     transition: .8s ease;   
 }
-.eps-dark:hover{
-    background-color: var(--eps-dark);
+.eps-outline-primary:hover{
+    color: var(--eps-white);
+    background-color: var(--eps-primary);
 }
