@@ -309,3 +309,28 @@ body{
     color: var(--eps-white);
     background-color: var(--eps-secondary);
 }
+
+.content-outline-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--eps-white);
+    border-radius: .5rem;
+    border: .15rem solid var(--eps-success) ;
+    gap:0.5rem
+}
+.title-outline-success{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-outline-success {
+    color: var(--eps-success);
+    background-color: var(--eps-white);
+    border: .15rem solid var(--eps-success);
+    transition: .8s ease;   
+}
+.eps-outline-success:hover{
+    color: var(--eps-white);
+    background-color: var(--eps-success);
+}
