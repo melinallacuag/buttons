@@ -259,3 +259,26 @@ body{
 .eps-dark:hover{
     background-color: var(--eps-dark);
 }
+
+.content-outline-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--eps-white);
+    border-radius: .5rem;
+    border: .15rem solid var(--eps-dark) ;
+    gap:0.5rem
+}
+.title-dark{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-dark {
+    color: var(--eps-white);
+    background-color: var(--eps-black-light);
+    transition: .8s ease;   
+}
+.eps-dark:hover{
+    background-color: var(--eps-dark);
+}
