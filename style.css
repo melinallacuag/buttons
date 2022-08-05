@@ -461,5 +461,15 @@ body{
 }
 
 .eps-sm{
-    font-size: 2rem;
+    font-size: .75rem;
+}
+
+.eps-normal{
+    font-size: 1rem;
+}
+.eps-medium{
+    font-size: 1.25rem;
+}
+.eps-large{
+    font-size: 1.5rem;
 }
