@@ -384,3 +384,28 @@ body{
     color: var(--eps-white);
     background-color: var(--eps-warning);
 }
+
+.content-outline-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--eps-white);
+    border-radius: .5rem;
+    border: .15rem solid var(--eps-info) ;
+    gap:0.5rem
+}
+.title-outline-info{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-outline-info {
+    color: var(--eps-info);
+    background-color: var(--eps-white);
+    border: .15rem solid var(--eps-info);
+    transition: .8s ease;   
+}
+.eps-outline-info:hover{
+    color: var(--eps-white);
+    background-color: var(--eps-info);
+}
