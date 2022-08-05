@@ -285,3 +285,27 @@ body{
     background-color: var(--eps-primary);
 }
 
+.content-outline-secondary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--eps-white);
+    border-radius: .5rem;
+    border: .15rem solid var(--eps-secondary) ;
+    gap:0.5rem
+}
+.title-outline-secondary{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-outline-secondary {
+    color: var(--eps-secondary);
+    background-color: var(--eps-white);
+    border: .15rem solid var(--eps-secondary);
+    transition: .8s ease;   
+}
+.eps-outline-secondary:hover{
+    color: var(--eps-white);
+    background-color: var(--eps-secondary);
+}
