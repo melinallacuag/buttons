@@ -473,3 +473,17 @@ body{
 .eps-large{
     font-size: 1.5rem;
 }
+
+.eps-outline-sm{
+    font-size: .75rem;
+}
+
+.eps-outline-normal{
+    font-size: 1rem;
+}
+.eps-outline-medium{
+    font-size: 1.25rem;
+}
+.eps-outline-large{
+    font-size: 1.5rem;
+}
