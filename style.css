@@ -425,12 +425,37 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .eps-outline-light {
-    color: var(--eps-light);
+    color: var(--eps-gray);
     background-color: var(--eps-white);
     border: .15rem solid var(--eps-light);
     transition: .8s ease;   
 }
 .eps-outline-light:hover{
-    color: var(--eps-black);
+    color: var(--eps-dark);
     background-color: var(--eps-light);
+}
+
+.content-outline-dark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--eps-white);
+    border-radius: .5rem;
+    border: .15rem solid var(--eps-dark) ;
+    gap:0.5rem
+}
+.title-outline-dark{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-outline-dark {
+    color: var(--eps-dark);
+    background-color: var(--eps-white);
+    border: .15rem solid var(--eps-dark);
+    transition: .8s ease;   
+}
+.eps-outline-dark:hover{
+    color: var(--eps-white);
+    background-color: var(--eps-dark);
 }
