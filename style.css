@@ -409,3 +409,28 @@ body{
     color: var(--eps-white);
     background-color: var(--eps-info);
 }
+
+.content-outline-light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--eps-white);
+    border-radius: .5rem;
+    border: .15rem solid var(--eps-light) ;
+    gap:0.5rem
+}
+.title-outline-light{
+    font-size: .8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.eps-outline-light {
+    color: var(--eps-light);
+    background-color: var(--eps-white);
+    border: .15rem solid var(--eps-light);
+    transition: .8s ease;   
+}
+.eps-outline-light:hover{
+    color: var(--eps-black);
+    background-color: var(--eps-light);
+}
