@@ -487,3 +487,15 @@ body{
 .eps-outline-large{
     font-size: 1.5rem;
 }
+
+.eps-box-primary{
+    /* background-color: #1197cc ; */
+    box-shadow: #828684 4px 4px 0px ;
+    border-radius: 8px;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-primary:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
