@@ -498,12 +498,73 @@ body{
     box-shadow: #828684 0px 0px 0px; 
 }
 
+.eps-box-secondary{
+    box-shadow: #828684 4px 4px 10px ;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-secondary:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
+
 .eps-box-success{
-    box-shadow: #828684 4px 4px 10px;
+    box-shadow: #828684 4px 4px 0px ;
     transition: transform 800ms, box-shadow 800ms;
 }
 
 .eps-box-success:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
+
+.eps-box-danger{
+    box-shadow: #828684 4px 4px 10px;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-danger:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
+
+.eps-box-warning{
+    box-shadow: #828684 4px 4px 0px;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-warning:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
+
+.eps-box-info{
+    box-shadow: #828684 4px 4px 10px;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-info:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
+
+
+.eps-box-light{
+    box-shadow: #828684 4px 4px 0px;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-light:hover{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #828684 0px 0px 0px; 
+}
+
+.eps-box-dark{
+    box-shadow: #828684 4px 4px 10px;
+    transition: transform 800ms, box-shadow 800ms;
+}
+
+.eps-box-dark:hover{
     transform: translateY(4px) translateX(4px);
     box-shadow: #828684 0px 0px 0px; 
 }
